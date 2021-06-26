@@ -1,0 +1,36 @@
+{
+  "items": [
+    {
+      "sys": { "id": "1" },
+      "fields": {
+        "title": "spiced chips",
+        "price": 100,
+        "image": { "fields": { "file": { "url": "https://source.unsplash.com/4hgYULBzVEE" } } }
+      }
+    },
+    {
+      "sys": { "id": "2" },
+      "fields": {
+        "title": "chips and samosa",
+        "price": 130,
+        "image": { "fields": { "file": { "url": "https://source.unsplash.com/CnSYfQB_Hdg" } } }
+      }
+    },
+    {
+      "sys": { "id": "3" },
+      "fields": {
+        "title": "chips with pork and kachumbari",
+        "price": 200,
+        "image": { "fields": { "file": { "url": "https://source.unsplash.com/vi0kZuoe0-8" } } }
+      }
+    },
+    {
+      "sys": { "id": "4" },
+      "fields": {
+        "title": "coctail fruit juice",
+        "price": 70,
+        "image": { "fields": { "file": { "url": "https://source.unsplash.com/IDEMIlWqNvc" } } }
+      }
+    }
+  ]
+}

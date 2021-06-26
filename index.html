@@ -1,1 +1,302 @@
-Index
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta property="og:image" content="/images/kitchen2.png">
+  <title>Pete's Kitchen</title>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">  <link rel="stylesheet" href="ham.css" type="text/css">
+  <link href='https://fonts.googleapis.com/css?family=Lato:100,300,400' rel='stylesheet' type='text/css'>
+
+  <script
+  src="https://code.jquery.com/jquery-3.5.1.min.js"
+  integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+  crossorigin="anonymous"></script>
+  <script src="https://smtpjs.com/v3/smtp.js"></script> 
+
+  <script src="https://kit.fontawesome.com/3ad25427da.js" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Alata&family=Kanit:wght@500&display=swap" rel="stylesheet">
+ <link rel="preconnect" href="https://fonts.gstatic.com">
+ <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Passion+One&display=swap" rel="stylesheet"> 
+
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+ <link rel="stylesheet" href="style.css" type="text/css">
+
+  </head>
+  <body>
+    <nav class="navbar">
+     
+      <div class="navbar-center">
+          <div>
+              <input id="hamburger" class="hamburger" type="checkbox"/>
+              <label class="hamburger" for="hamburger">
+                    <i></i>   
+              </label>
+              <section class="drawer-list">
+                    <ul>
+                      <li><a href="#">HOME</a></li>
+                      <li><a href="#products">Top Recipes</a></li>
+                      <li><a href="#products">Menu </a></li>
+                      <li><a href="#testimonials">Testimonials</a></li>
+                  </ul>
+                </div> 
+          <h1 class="logotxt"> Pete's Kitchen</h1>
+          <div class="cart-btn">
+              <span class="nav-icon">
+                  <i class="fas fa-cart-plus" ></i>
+              </span>
+              <div class="cart-items">0</div>
+          </div>
+      </div>
+  </nav>
+  <!--end of navbar-->
+  <!--hero-->
+  <header class = "hero">
+      <div class="banner">
+          <h1 class="banner-title animate__animated animate__bounceInUp">A DASH OF SPICE </h1>
+          <h3 class="banner-text animate__animated animate__fadeInUp ">It could can never go wrong when Pete's in the kitchen
+
+             </h3>
+
+          <a href="#products" class="banner-btn animate__animated animate__bounceInUp" id="banner-btn">Order</a>
+
+      </div>
+  </header>
+
+   
+
+
+  <section class="paralax-1">
+ <div class="paralax-inner">
+   <h3>CHECK OUT OUR MENU</h3>
+ </div>
+  </section>
+
+  
+      <!--products-->
+      <section class="products" id="products">
+        <div class="section-header">
+            <h1>Today's Menu</h>
+        </div>
+        <div class="products-center">
+        </div>
+    </section>
+    <!--end of products-->
+  
+  </section>
+
+  <!-- END OF OIL PRODUCTS -->
+
+   <section class="paralax-2">
+ <div class="paralax-inner-2">
+   <h3>WHAT OUR CUSTOMERS SAY ABOUT US</h3>
+ </div>
+  </section>
+
+  <!-- --------------------------------TESTIMONIALS--------------------------------------------------- -->
+
+  <section class="testimonial text-center" id="testimonials">
+    <div class="container">
+
+        <div class="heading white-heading">
+            Testimonials
+        </div>
+        <div id="testimonial4" class="carousel slide testimonial4_indicators testimonial4_control_button thumb_scroll_x swipe_x" data-ride="carousel" data-pause="hover" data-interval="5000" data-duration="2000">
+         
+            <div class="carousel-inner" role="listbox">
+                <div class="carousel-item active">
+                    <div class="testimonial4_slide">
+                        <img src="https://source.unsplash.com/2EGNqazbAMk/300x300" class="img-circle img-responsive" />
+                        <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                      </div>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. </p>
+                        <h4>John Doe</h4>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="testimonial4_slide">
+                        <img src="https://source.unsplash.com/IHIgnhLvz5Q/300x300" class="img-circle img-responsive" />
+                        <div class="stars">
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                        </div>
+                        <p>Lorem Ipsum Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+                        <h4>Jane Doe</h4>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="testimonial4_slide">
+                        <img src="https://source.unsplash.com/2EGNqazbAMk/300x300" class="img-circle img-responsive" />
+                        <div class="stars">
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                        </div>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dn unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+                        <h4>John Doe</h4>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#testimonial4" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#testimonial4" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+        </div>
+    </div>
+</section>
+
+
+<!-- ----------------------------------------END OF TESTIMONIALS-------------------------------------------->
+
+ 
+
+ <div class="footer">
+  <div class="inner-footer">
+
+<!--  for company name and description -->
+    <div class="footer-items">
+      <h1>Kari's Kitchen Logo</h1>
+      <p>Description of any product or motto of the company.</p>
+    </div>
+
+<!--  for quick links  -->
+    <div class="footer-items">
+      <h3>Quick Links</h3>
+      <div class="border1"></div> <!--for the underline -->
+        <ul>
+          <a href="#"><li>Home</li></a>
+          <a href="#"><li>Search</li></a>
+          <a href="#"><li>Contact</li></a>
+          <a href="#"><li>About</li></a>
+        </ul>
+    </div>
+
+<!--  for some other links -->
+    <div class="footer-items">
+      <h3>Recipes</h3>
+      <div class="border1"></div>  <!--for the underline -->
+        <ul>
+          <a href="#"><li>Breakfast</li></a>
+          <a href="#"><li>Dinner</li></a>
+          <a href="#"><li>Soup</li></a>
+          <a href="#"><li>Beverages</li></a>
+        </ul>
+    </div>
+
+<!--  for contact us info -->
+    <div class="footer-items">
+      <h3>Contact us</h3>
+      <div class="border1"></div>
+        <ul>
+          <li><i class="fa fa-map-marker" aria-hidden="true"></i>XYZ, abc</li>
+          <li><i class="fa fa-phone" aria-hidden="true"></i>123456789</li>
+          <li><i class="fa fa-envelope" aria-hidden="true"></i>xyz@gmail.com</li>
+        </ul> 
+      
+<!--   for social links -->
+        <div class="social-media">
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-google-plus-square"></i></a>
+        </div> 
+    </div>
+  </div>
+  
+<!--   Footer Bottom start  -->
+  <div class="footer-bottom">
+    Copyright &copy; @BLACKBOX23 2020.
+  </div>
+</div>
+  
+<!--   Footer Bottom end -->
+  
+<!--   FOOTER END -->
+
+    <!--cart-->
+        <div class="cart-overlay">
+            <div class="cart">
+                <span class="close-cart">
+                    <i class="far fa-times-circle"></i>
+                </span>
+                <h2>Your Cart</h2>
+                <div class="cart-content">
+                    <!--cart item-->
+               
+                
+                    <!--End ofcart item-->
+                </div>
+                <div class="cart-footer">
+                    <h3>Your Total : KES <span class="cart-total" id="cart-total">0</span></h3>
+                    <button class="clear-cart banner-btn">clear cart</button>
+                    <form>
+                      <p>Enter Name and Email to Order</p>
+                      <input name="name" id="customer-name" placeholder="What is your name?" class="name" required />
+                      <input name="emailaddress"id="customer-email" placeholder="What is your email?" class="email" type="email" required />
+                    </form>
+                    <button class=" check-out banner-btn"id="check-out">check out</button>
+                    <input type="button" class="hidebut" id="send-email" value="S">
+                   
+                </div>
+            </div>
+            
+        </div>
+
+    <!--end ofcart-->
+<script src="glider.min.js"></script>  
+<script>
+  new Glider(document.querySelector('.testimonials'),{
+   type: 'slider',
+    slidesToShow:1,
+    draggable: false,
+    arrows:{
+      prev: '.slider-prev',
+      next: '.slider-next'
+    },
+    
+  });
+</script>     
+<script>
+  var acc = document.getElementsByClassName("accordion");
+  var i;
+  
+  for (i = 0; i < acc.length; i++) {
+    acc[i].addEventListener("click", function() {
+      this.classList.toggle("active");
+      var panel = this.nextElementSibling;
+      if (panel.style.maxHeight) {
+        panel.style.maxHeight = null;
+      } else {
+        panel.style.maxHeight = panel.scrollHeight + "px";
+      } 
+    });
+  }
+  </script>
+   
+<!-- 
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script> -->
+
+<script src="app.js"></script>
+
+  
+  </body>
+</html>
