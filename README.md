@@ -1,6 +1,7 @@
 # Pete's Kitchen
 This is a responsive food-ordering website. Users can select, and order whatever food is on the menu for the day. 
 The site captures a users orders and sends it directly to the kitchen's email. The kitchen can then call back the user to make any clarifications and arrangements required.
+
 The project also uses local storage to save items in the cart.
 
 ![screenshot](./images/kitchen2.png)
