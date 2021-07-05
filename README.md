@@ -63,3 +63,4 @@ This project is [MIT](https://github.com/git/git-scm.com/blob/master/MIT-LICENSE
 
 
 https://www.freepik.com/free-icon/movies-tv_15086828.htm#page=1&query=logo%20movies&position=39
+<div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
